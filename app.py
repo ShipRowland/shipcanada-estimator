@@ -9,9 +9,9 @@ import numpy as np
 import pandas as pd
 import requests
 from flask import Flask, request, jsonify
-from geopy.geocoders import Nominatim
+
 from geopy.extra.rate_limiter import RateLimiter
-from scipy.stats import iqr
+
 
 from config import (
     HISTORICAL_URL, COLUMN_MAP, DEFAULT_ORIGIN_COUNTRY, DEFAULT_DEST_COUNTRY,
