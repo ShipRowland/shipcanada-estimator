@@ -4,4 +4,3 @@ pyarrow==16.1.0
 geopy==2.4.1
 requests==2.32.3
 numpy==1.26.4
-scipy==1.13.1
